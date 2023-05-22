@@ -1,0 +1,73 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+*
+'hello'
+-87.8
+-
+/
++
+6
+
+
+Ans: In this Question we have 3 elements are vaue and 3 are Expressions
+   	* 		Expressions 
+	'hello'	Value
+	-87.8		Value
+	-		Expressions
+	/		Expressions
+	+		Expressions
+	6		Value
+
+2. What is the difference between string and variable?
+Ans - A Variable is a store of information, and a String is a type of information you would store in a Variable
+
+
+3. Describe three different data types.
+Ans 
+	int - holds numeric values or holds signed integers
+	float - float holds decimal values
+	str	holds sequence of characters
+
+4. What is an expression made up of? What do all expressions do?
+Ans - An Expression is a combination of variable, operators and values, which are constructed according to the python to evaluates to 
+	single value.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans. : Expressions evalutes to a single value and Statement does not.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans : 22 because we added 1 in bacon but doesn't assign this value to bacon but if we assign this value to bacon it evalutes as 23 
+	see example below
+	bacon = 22
+	bacon = bacon + 1
+	then this bacon evalutes 23
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Ans : 'spam' + 'spamspam' = 'spamspamspam'
+	'spam' * 3 = 'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans:Because variable names cannot begin with a number
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans:  int()
+	float()
+	str()
+
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Ans : beacause of data types are different to fix this error we need to change the data type of 99 see ans in the following
+	'I have eaten ' + '99' + ' burritos.'
+	through this we can able to fixed the error 
+
+
+
